@@ -11,7 +11,7 @@ git clone https://github.com/mmahdik1379/todo.git && cd todo
 ### Install json server
 
 ```
-yarn global add json-server
+npm install -g json-server
 ```
 
 ### Run json server
