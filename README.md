@@ -8,9 +8,13 @@ git clone https://github.com/mmahdik1379/todo.git && cd todo
 
 ## start json server as api
 
+### Install json server
+
 ```
 yarn global add json-server
 ```
+
+### Run json server
 
 ```
 json-server --watch ./data/db.json
@@ -36,9 +40,13 @@ npm run build
 
 ## Project setup with Nginx Docker
 
+### Build planner image
+
 ```
 docker build -t planner .
 ```
+
+### Run planner image as container
 
 ```
 docker run --rm -it -p 8080:80 vue-nginx
