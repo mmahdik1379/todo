@@ -49,7 +49,7 @@ docker build -t planner .
 ### Run planner image as container
 
 ```
-docker run --rm -it -p 8080:80 vue-nginx
+docker run --rm -it -p 8080:80 planner
 ```
 
 ## Run Project
