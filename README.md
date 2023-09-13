@@ -34,7 +34,7 @@ npm run serve
 npm run build
 ```
 
-## Project setup with Docker
+## Project setup with Nginx Docker
 
 ```
 docker build -t planner .
